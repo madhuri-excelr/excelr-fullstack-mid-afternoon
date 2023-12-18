@@ -1,0 +1,35 @@
+class G 
+
+{
+
+        static int count;
+
+            G(){
+
+                count++;
+
+        }
+
+        public static void main(String[] args) 
+
+        {
+
+                G obj1 = new G();
+
+                System.out.println("a: " + count);
+
+                G obj2 = new G();
+
+                System.out.println("b: " + count);
+
+                G obj3 = new G();
+
+                System.out.println("c: " + count);
+
+                G obj4 = new G();
+
+                System.out.println("d: " + count);
+
+        }
+
+}

@@ -1,0 +1,14 @@
+class A
+{
+}  
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("madhuri"+9573);
+		System.out.println("nishi"+20.22);
+		System.out.println('m'+"madhu"+true);
+		System.out.println("Hello World!"+false);
+		System.out.println("Hello World!"+"Hello World!");
+		System.out.println("Hello World!"+"nishi");
+	}
+}

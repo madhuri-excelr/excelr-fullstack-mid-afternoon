@@ -1,0 +1,12 @@
+class W 
+{   
+	
+}
+class X extends W
+{
+	X()
+	{
+     System.out.println("X()");
+	}
+}
+	

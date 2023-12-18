@@ -1,0 +1,99 @@
+class Employee 
+{
+	private int employeeId;
+	private String employeeName;
+	private String employeeDepartment;
+	private int employeeAge;
+	private double employeeSalary;
+     /*
+	 Employee()
+	{
+    }
+	Employee(int employeeId,String employeeName, String employeeDepartment
+		, int employeeAge,double employeeSalary )
+	{
+		this.employeeId = employeeId; 
+		this.employeeName = employeeName;
+		this.employeeDepartment = employeeDepartment; 
+		this.employeeAge = employeeAge; 
+		this.employeeSalary = employeeSalary;
+	
+    }*/
+
+    public int getEmployeeId()
+
+	{
+	return employeeId;
+	}
+
+	public void setEmployeeId(int employeeId())
+	{
+		this.employeeId= employeeId;
+	}
+
+	public String getEmployeeName()
+	{
+	return employeeName;
+	}
+
+	public void setEmployeeName(String employeeName())
+	{
+		this.employeeName= employeeName;
+	}
+
+	public String getEmployeeDepartment()
+	{
+	return employeeDepartment;
+	}
+
+	public void setEmployeeDepartment(String employeeDepartment())
+	{
+		this.employeeDepartment= employeeDepartment;
+	}
+
+	public int getEmployeeAge()
+	{
+	return employeeAge;
+	}
+
+	public void setEmployeeAge(int employeeDepartment())
+	{
+		this.employeeAge= employeeAge;
+	}
+
+	public double getEmployeeSalary()
+	{
+	return employeeSalary;
+	}
+
+	public void setEmployeeSalary(double employeeSalary())
+	{
+		this.employeeSalary= employeeSalary;
+	}
+
+class MainDriver
+
+{
+	public static void main(String[] args)
+	{
+		Employee emp1 = new Employee(101, "madhu","full-stack",55,9000.0);
+		System.out.println(emp1.getemployeeId());
+		System.out.println(emp1.getemployeeName());
+		System.out.println(emp1.getemployeeDepartment());
+		System.out.println(emp1.getemployeeAge());
+		System.out.println(emp1.getemployeeSalary());
+		System.out.println("-----------------------");
+		emp1.setEmployeeId(1001);
+		emp1.setEmployeeName("nishi");
+		emp1.setEmployeeDepartment("data science");
+		emp1.setEmployeeAge(22);
+		emp1.setEmployeeSalary(5000.0);
+        System.out.println("-----------------------");
+		System.out.println(emp1.getemployeeId());
+		System.out.println(emp1.getemployeeName());
+		System.out.println(emp1.getemployeeDepartment());
+		System.out.println(emp1.getemployeeAge());
+		System.out.println(emp1.getemployeeSalary());
+	}
+}
+}
