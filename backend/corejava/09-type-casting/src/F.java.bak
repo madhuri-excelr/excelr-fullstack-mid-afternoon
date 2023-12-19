@@ -1,0 +1,9 @@
+class F 
+{
+	public static void main(String[] args) 
+	{   
+		double d = 10.0;
+		float f = d;
+		System.out.println("d: "+ d + ", " + "f: "+ f);
+	}
+}
